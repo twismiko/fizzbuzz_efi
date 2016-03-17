@@ -6,7 +6,6 @@ efi_main(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable)
 {
 	  InitializeLib(ImageHandle, SystemTable);
 	    Print(L"Fizzbuzz on UEFI!\n");
-	    int i = 100;
 	    for(i = 1; i < 100; i++)
 	    {
 		if(i % 3 == 0 && i % 5 == 0)
